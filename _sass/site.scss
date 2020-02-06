@@ -85,6 +85,21 @@ body {
 	animation-fill-mode: forwards;
 }
 
+.description {
+	font-family: $main-font;
+	margin-left: 50;
+  float: left;
+  font-size: 20px;
+  margin-top: 25px;
+  color: $dark-blue;
+	opacity: 0;
+	animation-delay: 1s;
+  animation-name: baslik;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	
+}
+
 @keyframes baslik {
   0% {
     opacity: 0;

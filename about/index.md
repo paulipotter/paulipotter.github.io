@@ -1,22 +1,7 @@
 ---
 layout: page
-title: About the Theme
+title: About
 tags: [about, Jekyll, theme, JBlog]
-date: 2016-03-21
+date: 2020-02-08
 ---
-
-![jekyll Image](http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2015/02/1424055625jekyll.png)
-{: .image-pull-right}
-
-<center><b>JBlog</b> is a simple jekyll theme.</center>
-
-## About
-
-I have used this theme in my own php and ruby blogs. And there are some shortcomings. If something looks extremely ugly and you can't resist to fix it, just send me a PR. I will be grateful.
-
-
-If you like this theme or using it, please give a **star** for motivation.
-
-You want to **use it?**      
-
-[Install JBlog](https://github.com/alperenbozkurt/JBlog){: .btn .btn-info}
+Hi! I'm Paula Mendez, currently 23-year-old SysAdmin at Covetrus. I recently graduated from Kansas State University with a B.S. in Computer Science. I'm interested in data modeling, data visualization, databases and machine learning. Secret Hobbies include candle-making and guitar-playing. During my free time, I hang out at home with my roommates and our dogs and cats.
