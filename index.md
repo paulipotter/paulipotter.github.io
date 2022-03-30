@@ -17,6 +17,11 @@ My name is Paula, and I'm a DevOps Engineer currently working at Covetrus. My cu
     </span> 
 </p>      
 
+### 👷 Skills and Qualifications
+ ![Python](assets/img/python.png) ![AWS](assets/img/aws.png) ![GCP](assets/img/gcp.png) ![Azure](assets/img/azure.png) ![Jenkins](assets/img/jenkins.png) ![Docker](assets/img/docker.png) ![Terraform](assets/img/terraform.png) ![SQL](assets/img/sql.png) ![MongoDB](assets/img/mongodb.png) ![JS](assets/img/js.png) ![html](assets/img/html.png) ![CSS](assets/img/css.png) ![csharp](assets/img/c-sharp.png) ![c++](assets/img/c-plus-plus.png) ![Java](assets/img/java.png)![html](assets/img/html.png) ![Django](assets/img/django.png ) ![Powershell](assets/img/ps1.png)
+
+[<img src=assets/img/aws-certified-solutions-architect-associate-2.png>](https://www.credly.com/badges/6c7f098c-5c3a-4d65-afeb-0f6b6da6aa65/public_url)
+
 ### :briefcase: Relevant Experience 
 <p style="text-align:left;">
     Embedded DevOps Engineer – <i>Capital One Trade Credit</i>
