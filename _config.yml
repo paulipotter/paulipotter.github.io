@@ -4,6 +4,7 @@ email: dev dot paulamendez at gmail dot com
 description: DevOps Engineer. Data Science Enthusiast. 26 years old. 
 show_downloads: false
 color-scheme: auto
+favicon: true
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
