@@ -31,9 +31,13 @@ github_username:  paulipotter
 
 # Build settings
 remote_theme: BDHU/minimalist
+color_scheme: auto
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jemoji
 
 # Exclude from processing.
 # The following items will not: be processed, by default.
