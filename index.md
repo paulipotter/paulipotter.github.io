@@ -26,7 +26,7 @@ My name is Paula, and I'm a DevOps Engineer currently working at Covetrus. I'm a
 <p style="text-align:left;">
     DevOps Engineer – <i>Covetrus</i>
     <span style="float:right;">
-        Feb 2021 – Sep 2021
+        Sep 2021 – Present
     </span>
     <ul style="font-size: .8rem; margin-top: -10px">
         <li>
