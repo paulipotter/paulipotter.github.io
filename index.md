@@ -3,7 +3,7 @@ layout: default
 ---
 Hi there :wave: Thank you for being here! 
 
-My name is Paula, and I'm a DevOps Engineer currently working at Covetrus. My current favorite language is Python and I love Automating everything! In my free time, I love to pretend I'm good at embroidery and occasionally play guitar. Welcome again to my page!
+My name is Paula, and I'm a DevOps Engineer currently working at Covetrus. I'm a Python enthusiast and I _love_ Automating everything! In my free time, I love to pretend I'm good at embroidery and occasionally play guitar. Welcome again to my page!
 
 ### :book: Education
 <p style="text-align:left;">
@@ -23,6 +23,22 @@ My name is Paula, and I'm a DevOps Engineer currently working at Covetrus. My cu
 [<img src="assets/img/aws-certified-solutions-architect-associate-2.png">](https://www.credly.com/badges/6c7f098c-5c3a-4d65-afeb-0f6b6da6aa65/public_url)
 
 ### :briefcase: Relevant Experience 
+<p style="text-align:left;">
+    DevOps Engineer – <i>Covetrus</i>
+    <span style="float:right;">
+        Feb 2021 – Sep 2021
+    </span>
+    <ul style="font-size: .8rem; margin-top: -10px">
+        <li>
+            Leverage <b>Azure DevOps</b> tools and arm templates to deliver .NET apps for the company's most ambitious project to date.
+        </li>
+        <li>
+        Serve as central point of contact of all Infrastructure-related topics for specific app-dev teams.</li>
+        <li>
+        Participate and collaborate in the continuous improvement of CI/CD pipelines to ensure optimal site reliability.
+        </li>
+    </ul>
+</p>
 <p style="text-align:left;">
     Embedded DevOps Engineer – <i>Capital One Trade Credit</i>
     <span style="float:right;">
