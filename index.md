@@ -30,7 +30,10 @@ My name is Paula, and I'm a DevOps Engineer currently working at Covetrus. I'm a
     </span>
     <ul style="font-size: .8rem; margin-top: -10px">
         <li>
-            Leverage <b>Azure DevOps</b> tools and arm templates to deliver .NET apps for the company's most ambitious project to date.
+        Build and maintain CI/CD pipelines using Gitlab CI, Terraform and Harness to deploy K8s applications in <b>AWS</b>.
+        </li>
+        <li>
+        Leverage <b>Azure DevOps</b> tools and arm templates to deliver .NET apps for the company's most ambitious project to date.
         </li>
         <li>
         Serve as central point of contact of all Infrastructure-related topics for specific app-dev teams.</li>
