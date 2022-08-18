@@ -1,25 +1,31 @@
 title: Paula Mendez
 logo: /assets/img/logo.png
 email: dev dot paulamendez at gmail dot com
-description: DevOps Engineer. Data Science Enthusiast. 26 years old. 
+description: DevOps Engineer. AWS + Python. 26 years old. 
 show_downloads: false
-color-scheme: auto
+google_analytics: G-WB8Y8SW22J
+color-scheme: dark
 favicon: true
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jemoji
 
-# You can find fonts from https://iconify.design or https://fontawesome.com. Below is just an example illustrating how to use custom icons
 sidebar:
   - name: San Diego, CA
-    icon: <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32"><path fill="currentColor" d="M16 2A11.013 11.013 0 0 0 5 13a10.889 10.889 0 0 0 2.216 6.6s.3.395.349.452L16 30l8.439-9.953c.044-.053.345-.447.345-.447l.001-.003A10.885 10.885 0 0 0 27 13A11.013 11.013 0 0 0 16 2Zm0 15a4 4 0 1 1 4-4a4.005 4.005 0 0 1-4 4Z"/><circle cx="16" cy="13" r="4" fill="none"/></svg>
+    icon: <i class="fa-solid fa-location-dot"></i>
   - name: LinkedIn
-    icon: <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M1 2.838A1.838 1.838 0 0 1 2.838 1H21.16A1.837 1.837 0 0 1 23 2.838V21.16A1.838 1.838 0 0 1 21.161 23H2.838A1.838 1.838 0 0 1 1 21.161V2.838Zm8.708 6.55h2.979v1.496c.43-.86 1.53-1.634 3.183-1.634c3.169 0 3.92 1.713 3.92 4.856v5.822h-3.207v-5.106c0-1.79-.43-2.8-1.522-2.8c-1.515 0-2.145 1.089-2.145 2.8v5.106H9.708V9.388Zm-5.5 10.403h3.208V9.25H4.208v10.54ZM7.875 5.812a2.063 2.063 0 1 1-4.125 0a2.063 2.063 0 0 1 4.125 0Z" clip-rule="evenodd"/></svg>
+    icon: <i class="fa-brands fa-linkedin"></i>
     link: https://www.linkedin.com/in/paulamendez1/
   - name: GitHub
     icon: <i class="fa-brands fa-github"></i>
     link: https://github.com/paulipotter
+  - name: Blog
+    icon: <i class="fa-solid fa-pen"></i>
+    link: https://paulipotter.github.io/blog/
+  - name: Resume
+    icon: <i class="fa-solid fa-file-arrow-down"></i>
+    link: /MendezResume.pdf
 
 # https://github.com/github/pages-gem/issues/399#issuecomment-301827749
 # When running locally, we run into the following error —
