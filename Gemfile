@@ -8,6 +8,10 @@ gemspec
 
 gem "jekyll-seo-tag"
 gem "jekyll-sitemap"
+group :jekyll_plugins do
+    gem "jekyll-paginate-v2"
+    gem "jekyll-feed"
+  end
 
 # https://github.com/jekyll/jekyll/issues/8523#issuecomment-751409319
 # When running locally, we run into the following error —
