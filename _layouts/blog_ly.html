@@ -3,22 +3,25 @@ layout: default
 ---
 <!-- Just some nice to have styles for the pager buttons -->
 <style>
-  ul.pager { text-align: center; list-style: none; }
-  ul.pager li {display: inline;border: 1px solid black; padding: 10px; margin: 5px;}
+  ul.see_all { text-align: center; list-style: none; }
+  ul.see_all li {display: inline;border: 1px solid black; padding: 10px; margin: 5px;}
 </style>
 
 <div class="blog">
 
-  <h1 class="page-heading">Blog Posts</h1>
+  <h1 class="page-heading">Latest Posts</h1>
   
   {{ content }}
+  
 
   <ul class="post-list" style="list-style: none;">
     <!-- 
         Here is the main paginator logic called.
         All calls to site.posts should be replaced by paginator.posts 
     -->
-    {% for post in paginator.posts %}
+    <!-- {% for post in paginator.posts %} -->
+    <!-- {% endfor %} -->
+    {% for post in site.posts limit:4 %}
       <li>
         <h2>
             <a id="post-title" class="post-link post-title" href="{{ post.url | relative_url }}">{{ post.title | escape }}
@@ -36,11 +39,13 @@ layout: default
     {% endfor %}
   </ul>
  
-  
+  <ul class="pager">
+    <a href="/archive">&larr; See all posts</a>
+  </ul>
   <!-- 
     Showing buttons to move to the next and to the previous list of posts (pager buttons).
   -->
-  {% if paginator.total_pages > 1 %}
+  <!-- {% if paginator.total_pages > 1 %}
   <ul class="pager">
       {% if paginator.previous_page %}
       <li class="previous">
@@ -53,7 +58,7 @@ layout: default
       </li>
       {% endif %}
   </ul>
-  {% endif %}
+  {% endif %} -->
 
 
 </div>
