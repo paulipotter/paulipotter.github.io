@@ -31,10 +31,10 @@ sidebar:
     link: https://github.com/paulipotter
   - name: Blog
     icon: <i class="fa-solid fa-pen"></i>
-    link: ./blog.html
+    link: ../blog/
   - name: Resume
     icon: <i class="fa-solid fa-file-arrow-down"></i>
-    link: ./MendezResume.pdf
+    link: ../MendezResume.pdf
 
 # https://github.com/github/pages-gem/issues/399#issuecomment-301827749
 # When running locally, we run into the following error —
