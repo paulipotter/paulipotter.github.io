@@ -16,6 +16,7 @@ jobs:
         with: 
           node-version: "10.x"
       - run: npm install
+      - run: npm init
       - run: npm run build
       - run: npm test
       - name: Upload Artifact
