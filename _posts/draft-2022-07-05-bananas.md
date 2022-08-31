@@ -1,6 +1,7 @@
 ---
 layout: post
 author: paulipotter
+tags: 100-Days-of-Code Python
 ---
 A banana is an edible fruit – botanically a berry – produced by several kinds
 of large herbaceous flowering plants in the genus Musa.

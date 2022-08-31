@@ -1,0 +1,64 @@
+---
+layout: default
+---
+<!-- Just some nice to have styles for the pager buttons -->
+<style>
+  ul.see_all { text-align: center; list-style: none; }
+  ul.see_all li {display: inline;border: 1px solid black; padding: 10px; margin: 5px;}
+</style>
+
+<div class="blog">
+
+  <h1 class="page-heading">Latest Posts</h1>
+  
+  {{ content }}
+  
+
+  <ul class="post-list" style="list-style: none;">
+    <!-- 
+        Here is the main paginator logic called.
+        All calls to site.posts should be replaced by paginator.posts 
+    -->
+    <!-- {% for post in paginator.posts %} -->
+    <!-- {% endfor %} -->
+    {% for post in site.posts limit:4 %}
+      <li>
+        <h2>
+            <a id="post-title" class="post-link post-title" href="{{ post.url | relative_url }}">{{ post.title | escape }}
+            </a>
+        </h2>
+        {% if post.subtitle %}
+            <h4 class="post-subtitle">{{ post.subtitle }}</h4>
+            {% else %}
+            <h4 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h4>
+            {% endif %}
+          <p><small><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span></small></p>
+        
+      </li>
+      <hr>
+    {% endfor %}
+  </ul>
+ 
+  <ul class="pager">
+    <a href="/archive">&larr; See all posts</a>
+  </ul>
+  <!-- 
+    Showing buttons to move to the next and to the previous list of posts (pager buttons).
+  -->
+  <!-- {% if paginator.total_pages > 1 %}
+  <ul class="pager">
+      {% if paginator.previous_page %}
+      <li class="previous">
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+      </li>
+      {% endif %}
+      {% if paginator.next_page %}
+      <li class="next">
+          <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+      </li>
+      {% endif %}
+  </ul>
+  {% endif %} -->
+
+
+</div>

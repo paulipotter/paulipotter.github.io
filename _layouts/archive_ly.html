@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<style>
+#date {
+    font-size: .8em;
+    margin-top: 3px;
+    margin-right: 10px; 
+    min-width: 50px;
+    width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 21px;
+}
+
+</style>
+<h1>Archive</h1>
+{% assign years = "2022,2021,2022,2019,2018" | split:',' %}
+
+{% for post in site.posts %}
+  {% assign currentdate = post.date | date: "%Y" %}
+  {% if currentdate != date %}
+    {% unless forloop.first %}<hr></ul>{% endunless %}
+    <h2 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
+    <ul style="list-style: none;">
+    {% assign date = currentdate %}
+  {% endif %}
+    <!-- <li>
+        <tab></tab><a href="{{ post.url }}">{{ post.title }}</a> - 
+        <small><span class="post-meta">{{ post.date | date: "%b %-d" }}</span></small>
+    </li> -->
+    <li style="display: flex;">
+        <date id="date"><time>{{ post.date | date: "%b %-d" }}</time></date>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% if forloop.last %}
+</ul>
+<hr>
+{% endif %}
+{% endfor %}
