@@ -52,7 +52,12 @@ jobs:
 
       - name: Display structure of downloaded files
         run: ls -R
+      - uses: nelonoel/branch-name@v1
+      # Use branch name for whatever purpose
+      - run: echo ${BRANCH_NAME}
   deploy:
+    # Use branch name for whatever purpose
+    
     needs: [get-artifact, build]
     if: github.branch == 'main'
     permissions:
