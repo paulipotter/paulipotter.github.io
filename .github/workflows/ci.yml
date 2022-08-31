@@ -36,5 +36,6 @@ jobs:
           verbose: true 
           token: ${{ github.token }}
           
-      - name: Upload Artifact 📥
-        uses: actions/upload-pages-artifact@v1
+      - name: Upload GitHub Pages artifact 📦
+        uses: actions/upload-pages-artifact@v1.0.3
+
