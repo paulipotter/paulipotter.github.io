@@ -59,7 +59,7 @@ jobs:
     # Use branch name for whatever purpose
     
     needs: [get-artifact, build]
-    if: github.branch == 'main'
+    
     permissions:
       pages: write      # to deploy to Pages
       id-token: write   # to verify the deployment originates from an appropriate source
@@ -67,7 +67,12 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    if: github.branch == 'main'
     steps:
+      - uses: nelonoel/branch-name@v1
+      # Use branch name for whatever purpose
+      - run: echo ${BRANCH_NAME}
+      
       - name: Deploy GitHub Pages site 🌎
         id: deployment
         uses: actions/deploy-pages@v1.0.10
