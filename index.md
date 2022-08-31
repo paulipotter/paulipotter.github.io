@@ -7,4 +7,4 @@ My name is Paula, and I'm a **DevOps Engineer** currently working at Covetrus. I
 
 - Check my [work experience](/work).
 -  You can also [download my resume](/MendezResume.pdf).
-- Or go to the [Blog](/blog/)
+- Or go to the [Blog](/blog)
