@@ -65,7 +65,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    if: github.branch == 'main'
+    if: github.ref == 'refs/heads/main'
     steps:
       - name: Get branch name
         run: echo 'The branch name is' $BRANCH_NAME
