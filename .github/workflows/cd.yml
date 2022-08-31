@@ -8,7 +8,7 @@ on:
       
 
 jobs:
-  build:
+  get-artifact:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
@@ -24,7 +24,7 @@ jobs:
 
   deploy:
     # Add a dependency to the build job
-    needs: build
+    needs: get-artifact
 
     # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
     permissions:
