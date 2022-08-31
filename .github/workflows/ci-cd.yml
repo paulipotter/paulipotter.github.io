@@ -54,7 +54,7 @@ jobs:
         run: ls -R
   deploy:
     needs: [get-artifact, build]
-    if: github.repository == 'paulipotter/paulipotter.github.io' and github.branch == 'main'
+    if: github.repository == 'paulipotter/paulipotter.github.io' && github.branch == 'main'
     permissions:
       pages: write      # to deploy to Pages
       id-token: write   # to verify the deployment originates from an appropriate source
