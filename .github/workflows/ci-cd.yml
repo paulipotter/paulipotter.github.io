@@ -52,9 +52,7 @@ jobs:
 
       - name: Display structure of downloaded files
         run: ls -R
-      - uses: nelonoel/branch-name@v1
-      # Use branch name for whatever purpose
-      - run: echo ${BRANCH_NAME}
+
   deploy:
     # Use branch name for whatever purpose
     
@@ -69,9 +67,8 @@ jobs:
     runs-on: ubuntu-latest
     if: github.branch == 'main'
     steps:
-      - uses: nelonoel/branch-name@v1
-      # Use branch name for whatever purpose
-      - run: echo ${BRANCH_NAME}
+      - name: Get branch name
+        run: echo 'The branch name is' $BRANCH_NAME
       
       - name: Deploy GitHub Pages site 🌎
         id: deployment
