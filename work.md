@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Work
-permalink: /work/
+permalink: /work
 ---
 
 
@@ -44,7 +44,7 @@ permalink: /work/
     </ul>
 </p>
 
-![AWS](../assets/img/skills/aws.png)    ![Kubernetes](../assets/img/skills/kubernetes.png)  ![Terraform](../assets/img/skills/terraform.png) ![Docker](../assets/img/skills/docker.png) ![MongoDB](../assets/img/skills/mongodb.png)    ![Harness](../assets/img/skills/harness.png) ![Jenkins](../assets/img/skills/jenkins.png)   ![Azure](../assets/img/skills/azure.png)
+![AWS](../assets/img/skills/aws.png "aws")    ![Kubernetes](../assets/img/skills/kubernetes.png "kubernetes")  ![Terraform](../assets/img/skills/terraform.png "terraform") ![Docker](../assets/img/skills/docker.png "docker") ![MongoDB](../assets/img/skills/mongodb.png "mongodb")   ![Harness](../assets/img/skills/harness.png "harness") ![Jenkins](../assets/img/skills/jenkins.png "jenkins")   ![Azure](../assets/img/skills/azure.png "azure")
 
 <hr>
 <p style="text-align:left;">
@@ -64,7 +64,7 @@ permalink: /work/
     </ul>
 </p>
 
-![GCP](../assets/img/skills/gcp.png)    ![AWS](../assets/img/skills/aws.png)    ![Kubernetes](../assets/img/skills/kubernetes.png)  ![Terraform](../assets/img/skills/terraform.png)    ![Docker](../assets/img/skills/docker.png)   ![MongoDB](../assets/img/skills/mongodb.png)    ![Harness](../assets/img/skills/harness.png)   ![Jenkins](../assets/img/skills/jenkins.png)
+![GCP](../assets/img/skills/gcp.png "gcp")    ![AWS](../assets/img/skills/aws.png "aws")    ![Kubernetes](../assets/img/skills/kubernetes.png "kubernetes")  ![Terraform](../assets/img/skills/terraform.png "terraform")    ![Docker](../assets/img/skills/docker.png "docker")   ![MongoDB](../assets/img/skills/mongodb.png "mongodb")    ![Harness](../assets/img/skills/harness.png "harness")   ![Jenkins](../assets/img/skills/jenkins.png "jenkins")
 
 <hr>
 <p style="text-align:left;">
@@ -85,7 +85,7 @@ permalink: /work/
     </ul>
 </p>
 
-![AWS](../assets/img/skills/aws.png)    ![Python](../assets/img/skills/python.png)  ![Powershell](../assets/img/skills/powershell.png)  ![jamf](../assets/img/skills/jamf.png)   ![Active Directory](../assets/img/skills/active-directory.png)  ![SQL](../assets/img/skills/sql.png)    ![c-sharp](../assets/img/skills/c-sharp.png)
+![AWS](../assets/img/skills/aws.png "aws")    ![Python](../assets/img/skills/python.png "python")  ![Powershell](../assets/img/skills/powershell.png "powershell")  ![jamf](../assets/img/skills/jamf.png "jamf")   ![Active Directory](../assets/img/skills/active-directory.png "active-directory")  ![SQL](../assets/img/skills/sql.png "SQL")    ![c-sharp](../assets/img/skills/c-sharp.png "c-sharp")
 
 <hr>
 <p style="text-align:left;">
@@ -106,7 +106,7 @@ permalink: /work/
     </ul>
 </p>
 
-![Python](../assets/img/skills/python.png) ![Powershell](../assets/img/skills/powershell.png) ![jamf](../assets/img/skills/jamf.png) ![Active Directory](../assets/img/skills/active-directory.png) ![c-sharp](../assets/img/skills/c-sharp.png)
+![Python](../assets/img/skills/python.png "python") ![Powershell](../assets/img/skills/powershell.png "powershell") ![jamf](../assets/img/skills/jamf.png "jamf") ![Active Directory](../assets/img/skills/active-directory.png "active-directory") ![c-sharp](../assets/img/skills/c-sharp.png "c-sharp")
 
 <hr>
 <p style="text-align:left;">
@@ -136,7 +136,7 @@ permalink: /work/
 </ul>
 </p>
 
-![Python](../assets/img/skills/python.png) ![Flask](../assets/img/skills/flask.png) ![Javascript](../assets/img/skills/javascript.png) ![HTML](../assets/img/skills/html.png) ![CSS](../assets/img/skills/css.png) ![MongoDB](../assets/img/skills/mongo.png)
+![Python](../assets/img/skills/python.png "python") ![Flask](../assets/img/skills/flask.png "flask") ![Javascript](../assets/img/skills/javascript.png "javascript") ![HTML](../assets/img/skills/html.png "html") ![CSS](../assets/img/skills/css.png "css") ![MongoDB](../assets/img/skills/mongodb.png "mongodb")
 
 <hr>
 <p style="text-align:left;">
@@ -154,4 +154,9 @@ permalink: /work/
 </ul>
 </p> 
 
-  ![Python](../assets/img/skills/python.png) ![SQL](../assets/img/skills/sql.png)
+  ![Python](../assets/img/skills/python.png "python") ![SQL](../assets/img/skills/sql.png "SQL")
+
+
+  [img-path]: ../assets/img/skills/
+  [png]:.png
+
