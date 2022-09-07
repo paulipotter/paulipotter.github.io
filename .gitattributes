@@ -200,3 +200,4 @@ Procfile          text
 
 # SCSS
 *.*css             binary
+*.scss             binary
