@@ -198,6 +198,9 @@ Procfile          text
 # Ignore files (like .npmignore or .gitignore)
 *.*ignore         text
 
+
+
 # SCSS
 *.*css             binary
 *.scss             binary
+assets/css/**      binary
