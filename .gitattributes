@@ -201,6 +201,6 @@ Procfile          text
 
 
 # SCSS
-*.*css             binary
-*.scss             binary
-assets/css/**      binary
+*.*css             linguist-vendored
+*.scss             linguist-vendored
+assets/css/**      linguist-vendored
