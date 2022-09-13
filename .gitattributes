@@ -19,3 +19,4 @@
 *.*css             linguist-vendored
 *.scss             linguist-vendored
 assets/css/**      linguist-vendored
+Dockerfile         text
