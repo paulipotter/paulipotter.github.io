@@ -3,7 +3,7 @@ layout: post
 author: paulipotter
 tags: Python venv zsh
 ---
-## Simplify Your Virtual Environment Workflow with Zsh Aliases
+Simplify Your Virtual Environment Workflow with Zsh Aliases
 
 Managing virtual environments is an essential part of many development workflows. However, constantly typing out the full command to activate or create a virtual environment can be time-consuming and cumbersome. Thankfully, there's a solution that can streamline your workflow in the Zsh shell.
 
