@@ -21,7 +21,7 @@ permalink: /work
 ### 🗄 Skills and Certifications
 - Language: Spanish (Fluent)
 
-[<img src="../assets/img/skills/aws-certified-solutions-architect-associate-2.png">](https://www.credly.com/badges/6c7f098c-5c3a-4d65-afeb-0f6b6da6aa65/public_url) [<img src="..assets/img/skills/pychon-pcep.png">](https://www.credly.com/badges/f7b3def5-8964-4c85-80da-d883e76481d3/public_url)
+[<img src="../assets/img/skills/aws-certified-solutions-architect-associate-2.png">](https://www.credly.com/badges/6c7f098c-5c3a-4d65-afeb-0f6b6da6aa65/public_url) [<img src="../assets/img/skills/pychon-pcep.png">](https://www.credly.com/badges/f7b3def5-8964-4c85-80da-d883e76481d3/public_url)
 
 ### 💼 Relevant Experience
 <p style="text-align:left;">
