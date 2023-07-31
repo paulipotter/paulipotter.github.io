@@ -21,9 +21,37 @@ permalink: /work
 ### 🗄 Skills and Certifications
 - Language: Spanish (Fluent)
 
-[<img src="../assets/img/skills/aws-certified-solutions-architect-associate-2.png">](https://www.credly.com/badges/6c7f098c-5c3a-4d65-afeb-0f6b6da6aa65/public_url)
+[<img src="../assets/img/skills/aws-certified-solutions-architect-associate-2.png">](https://www.credly.com/badges/6c7f098c-5c3a-4d65-afeb-0f6b6da6aa65/public_url) [<img src="..assets/img/skills/pychon-pcep.png">](https://www.credly.com/badges/f7b3def5-8964-4c85-80da-d883e76481d3/public_url)
 
-### 💼 Relevant Experience 
+### 💼 Relevant Experience
+<p style="text-align:left;">
+    DevOps Engineer – <i>Black Spectacles</i>
+    <span style="float:right;">
+        Sep 2021 – Present
+    </span>
+    <ul style="font-size: .8rem; margin-top: -10px">
+        <li>
+        <b>Streamline CI/CD pipelines</b> using <b>Github Actions, CircleCI and Python AWS CDK</b>, enabling efficient deployment of containerized and monolithic applications on ECS and ElasNc Beanstalk, while reducing deployment time.
+        </li>
+        <li>
+        <b>Reduce unnecessary spending in AWS</b> by identifying unused reseources and plan to leverage to leverage alternatives to on-demand instances to save more while maintaining scalability and reliability.
+        </li>
+        <li>
+        <b>Develop AWS CDK Python IaC</b> for Node.js API, integrating ECS, API Gateway, new VPC for a brand new platform.
+        </li>
+        <li>
+        Lead a tool consolidation initiative, migrating from Bitbucket & CircleCI to a Github environment, writing new pipelines, implementing Dependabot and optimizing branch settings for streamlined workflows.
+        </li>
+        <li>
+        Manage seamless domain migration ensuring uptime, minimal user disruption for improved website traffic and SEO.
+        </li>
+    </ul>
+</p>
+
+![AWS](../assets/img/skills/aws.png "aws")    ![Python](../assets/img/skills/python.png "python")   ![CDK](../assets/img/skills/cdk.png "cdk")   ![Github Actions](../assets/img/skills/github-actions.png "github-actions")  ![Datadog](../assets/img/skills/datadog.png "datadog") ![Docker](../assets/img/skills/docker.png "docker") ![SQL](../assets/img/skills/sql.png "SQL")
+
+<hr>
+
 <p style="text-align:left;">
     DevOps Engineer – <i>Covetrus</i>
     <span style="float:right;">
