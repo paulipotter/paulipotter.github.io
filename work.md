@@ -7,7 +7,7 @@ permalink: /work
 
 ### 📓 Education
 <p style="text-align:left;">
-    <b>Kansas State University</b> – <i>Manhattan, KS</i>
+    <b>Kansas State University</b>
     <span style="float:right;">
         May 2019
     </span>
