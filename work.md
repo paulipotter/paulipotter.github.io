@@ -25,9 +25,37 @@ permalink: /work
 
 ### 💼 Relevant Experience
 <p style="text-align:left;">
+    Senior DevOps Engineer – <i>PracticeTek</i>
+    <span style="float:right;">
+        Sep 2023 – Present
+    </span>
+    <ul style="font-size: .8rem; margin-top: -10px">
+        <li>
+        Maintain CI/CD pipelines with <b>GitHub Actions</b> and <b>Bitbucket Pipelines</b> for seamless EKS/AKS deployments.
+        </li>
+        <li>
+        Develop, maintain, and update <b>IaC</b> using <b>Terraform</b> and <b>Terragrunt</b> across multi-region, multi-environment, and multi-cloud platorms to enable scalable and eﬃcient infrastructure.
+        </li>
+        <li>
+        Provide infrastructure support to developers and data engineers, addressing their evolving infrastructure needs.
+        </li>
+        <li>
+        Reduce costs by migrating databases to RDS and integraQng legacy apps into Kubernetes.
+        </li>
+        <li>
+        Monitor 30+ micro-services using Datadog, enhancing performance and reliability.
+        </li>
+    </ul>
+</p>
+
+![AWS](../assets/img/skills/aws.png "aws")    ![Kubernetes](../assets/img/skills/kubernetes.png "kubernetes")  ![Terraform](../assets/img/skills/terraform.png "terraform")    ![Docker](../assets/img/skills/docker.png "docker")    ![Github Actions](../assets/img/skills/github-actions.png "github-actions")  ![Datadog](../assets/img/skills/datadog.png "datadog")  ![SQL](../assets/img/skills/sql.png "SQL")
+
+<hr>
+
+<p style="text-align:left;">
     DevOps Engineer – <i>Black Spectacles</i>
     <span style="float:right;">
-        Sep 2021 – Present
+        Sep 2022 – Sep 2023
     </span>
     <ul style="font-size: .8rem; margin-top: -10px">
         <li>
@@ -55,7 +83,7 @@ permalink: /work
 <p style="text-align:left;">
     DevOps Engineer – <i>Covetrus</i>
     <span style="float:right;">
-        Sep 2021 – Present
+        Sep 2021 – Sep 2022
     </span>
     <ul style="font-size: .8rem; margin-top: -10px">
         <li>
