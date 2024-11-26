@@ -7,5 +7,5 @@ Hi, I'm Paula! I'm a **DevOps Engineer** and independent researcher. I'm passion
 
 
 - Check my [work experience](/work).
-- You can also [download my resume](/MendezResume.pdf).
+- You can also [download my resume](/GautoResume.pdf).
 - Or go to the [Blog](/blog).
