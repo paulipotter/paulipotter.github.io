@@ -3,9 +3,8 @@ layout: default
 ---
 Hi there :wave: Thank you for being here! 
 
-Hi, I'm Paula! I'm a **DevOps Engineer** and independent researcher. I'm passionate about automation and love using Python to make things easier. In my free time, I do research on the state of technology in developing countries in South America. I'm also an embroidery hobbyist and occasional guitar player.
-
+I'm a **Software and DevOps Engineer** with a passion for automation. My tech stack of choice includes **JavaScript, Python, AWS, GCP, Terraform, and GitOps**. I love using Python to simplify complex tasks and streamline workflows.
 
 - Check my [work experience](/work).
-- You can also [download my resume](/MendezResume.pdf).
+- You can also [download my resume](/GautoResume.pdf).
 - Or go to the [Blog](/blog).

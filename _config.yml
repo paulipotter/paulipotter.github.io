@@ -1,7 +1,7 @@
-title: Paula Mendez
+title: Paula Gauto
 logo: /assets/img/logo.png
-email: dev dot paulamendez at gmail dot com
-description: DevOps Engineer. AWS + Python. 26 years old. 
+email: paula dot gauto dot codes at gmail dot com
+description: Software and DevOps Engineer. AWS + Python + Javascript.
 show_downloads: false
 google_analytics: G-WB8Y8SW22J
 color-scheme: dark
@@ -25,7 +25,7 @@ sidebar:
     icon: <i class="fa-solid fa-location-dot"></i>
   - name: LinkedIn
     icon: <i class="fa-brands fa-linkedin"></i>
-    link: https://www.linkedin.com/in/paulamendez1/
+    link: https://www.linkedin.com/in/paulagauto/
   - name: GitHub
     icon: <i class="fa-brands fa-github"></i>
     link: https://github.com/paulipotter
@@ -34,7 +34,7 @@ sidebar:
     link: /blog
   - name: Resume
     icon: <i class="fa-solid fa-file-arrow-down"></i>
-    link: /MendezResume.pdf
+    link: /GautoResume.pdf
 
 # https://github.com/github/pages-gem/issues/399#issuecomment-301827749
 # When running locally, we run into the following error —
