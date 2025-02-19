@@ -24,10 +24,45 @@ permalink: /work
 [<img src="../assets/img/skills/aws-certified-solutions-architect-associate-2.png">](https://www.credly.com/badges/6c7f098c-5c3a-4d65-afeb-0f6b6da6aa65/public_url) [<img src="../assets/img/skills/pychon-pcep.png">](https://www.credly.com/badges/f7b3def5-8964-4c85-80da-d883e76481d3/public_url)
 
 ### 💼 Relevant Experience
+
+<p style="text-align:left;">
+    Senior DevOps Engineer – <i>PracticeTek</i>
+    <span style="float:right;">
+        Sep 2023 – Present
+    </span>
+    <ul style="font-size: .8rem; margin-top: -10px">
+        <li>
+        Maintain CI/CD pipelines with GitHub Ac*ons and Bitbucket Pipelines for seamless EKS/AKS deployments.
+        </li>
+        <li>
+        Develop, maintain, and update IaC using Terraform and Terragrunt across mul*-region, mul*-environment, and multicloud pla@orms to enable scalable and eﬃcient infrastructure.
+        </li>
+        <li>
+        Provide infrastructure support to developers and data engineers, addressing their evolving infrastructure needs.
+        </li>
+        <li>
+        Reduce costs by migra*ng databases to RDS and integraQng legacy apps into Kubernetes.
+        </li>
+        <li>
+        Monitor 30+ micro-services using Datadog, enhancing performance and reliability.
+        </li>
+        <li>
+        Contribute to the upliS of an API by transiQoning from legacy code to newly deployed Kubernetes micro-services.
+        </li>
+        <li>
+        Mentor and guide a team of six DevOps engineers, fostering collaboraQon and driving success.
+        </li>
+    </ul>
+</p>
+
+![AWS](../assets/img/skills/aws.png "aws")  ![Azure](../assets/img/skills/azure.png "azure")    ![Kubernetes](../assets/img/skills/kubernetes.png)   ![Terraform](../assets/img/skills/terraform.png "terraform")   ![Github Actions](../assets/img/skills/github-actions.png "github-actions")  ![Datadog](../assets/img/skills/datadog.png "datadog") ![Docker](../assets/img/skills/docker.png "docker") ![SQL](../assets/img/skills/sql.png "SQL")
+
+<hr>
+
 <p style="text-align:left;">
     DevOps Engineer – <i>Black Spectacles</i>
     <span style="float:right;">
-        Sep 2021 – Present
+        Nov 2022 – Sep 2023
     </span>
     <ul style="font-size: .8rem; margin-top: -10px">
         <li>
@@ -48,14 +83,14 @@ permalink: /work
     </ul>
 </p>
 
-![AWS](../assets/img/skills/aws.png "aws")    ![Python](../assets/img/skills/python.png "python")   ![CDK](../assets/img/skills/cdk.png "cdk")   ![Github Actions](../assets/img/skills/github-actions.png "github-actions")  ![Datadog](../assets/img/skills/datadog.png "datadog") ![Docker](../assets/img/skills/docker.png "docker") ![SQL](../assets/img/skills/sql.png "SQL")
+![AWS](../assets/img/skills/aws.png "aws")  ![Python](../assets/img/skills/python.png "python")   ![CDK](../assets/img/skills/cdk.png "cdk")   ![Github Actions](../assets/img/skills/github-actions.png "github-actions")  ![Datadog](../assets/img/skills/datadog.png "datadog") ![Docker](../assets/img/skills/docker.png "docker") ![SQL](../assets/img/skills/sql.png "SQL")
 
 <hr>
 
 <p style="text-align:left;">
     DevOps Engineer – <i>Covetrus</i>
     <span style="float:right;">
-        Sep 2021 – Present
+        Sep 2021 – Oct 2022
     </span>
     <ul style="font-size: .8rem; margin-top: -10px">
         <li>
