@@ -21,7 +21,7 @@ plugins:
   - jekyll-paginate-v2
 
 sidebar:
-  - name: San Diego, CA
+  - name: White Mountains, NH
     icon: <i class="fa-solid fa-location-dot"></i>
   - name: LinkedIn
     icon: <i class="fa-brands fa-linkedin"></i>
