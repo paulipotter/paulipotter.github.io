@@ -8,12 +8,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           persist-credentials: false
 
       - name: Setup Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v4
         with:
           node-version: 14.x
       
@@ -27,7 +27,7 @@ jobs:
           npm i
           fi
       - name: Build Jekyll for GitHub Pages 👷🏻‍♀️
-        uses: actions/jekyll-build-pages@v1.0.5
+        uses: actions/jekyll-build-pages@v1.0.13
         with:
           source: ./ 
           destination: ./_site 
