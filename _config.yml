@@ -1,63 +1,25 @@
-title: Paula Gauto
-logo: /assets/img/logo.png
-email: paula dot gauto dot codes at gmail dot com
-description: Software and DevOps Engineer. AWS + Python + Javascript.
-show_downloads: false
-google_analytics: G-WB8Y8SW22J
-color-scheme: dark
-favicon: true
-pagination:
-  enabled: true
-  per_page: 3
-  permalink: /:year/:month/:title.html
-  title: ' - page :num'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
+# Setup
+title:               Paula Gauto
+tagline:             'Software and DevOps Engineer'
+description:         'Software and DevOps Engineer. AWS + Python + Javascript.'
+url:                 https://paulipotter.github.io
+baseurl:             ''
+paginate:            5
+permalink:           pretty
+
+# About/contact
+author:
+  name:              Paula Gauto
+  url:               https://github.com/paulipotter
+  email:             paula.gauto.codes@gmail.com
+
+# Gems
 plugins:
+  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jemoji
-  - jekyll-paginate-v2
+  - jekyll-feed
 
-sidebar:
-  - name: White Mountains, NH
-    icon: <i class="fa-solid fa-location-dot"></i>
-  - name: LinkedIn
-    icon: <i class="fa-brands fa-linkedin"></i>
-    link: https://www.linkedin.com/in/paulagauto/
-  - name: GitHub
-    icon: <i class="fa-brands fa-github"></i>
-    link: https://github.com/paulipotter
-  - name: Blog
-    icon: <i class="fa-solid fa-pen"></i>
-    link: /blog
-  - name: Resume
-    icon: <i class="fa-solid fa-file-arrow-down"></i>
-    link: /GautoResume.pdf
-
-# https://github.com/github/pages-gem/issues/399#issuecomment-301827749
-# When running locally, we run into the following error —
-# GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.
-# adding this avoids it
-github: [metadata]
-
-collections:
-  authors:
-    output: true
-
-defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
+# Custom vars
+version:             1.1.0
+google_analytics_id: G-WB8Y8SW22J

@@ -21,7 +21,7 @@ permalink: /work
 ### 🗄 Skills and Certifications
 - Language: Spanish (Fluent)
 
-[<img src="../assets/img/skills/aws-certified-solutions-architect-associate-2.png">](https://www.credly.com/badges/6c7f098c-5c3a-4d65-afeb-0f6b6da6aa65/public_url) [<img src="../assets/img/skills/pychon-pcep.png">](https://www.credly.com/badges/f7b3def5-8964-4c85-80da-d883e76481d3/public_url)
+[<img src="/img/skills/aws-certified-solutions-architect-associate-2.png">](https://www.credly.com/badges/6c7f098c-5c3a-4d65-afeb-0f6b6da6aa65/public_url) [<img src="/img/skills/pychon-pcep.png">](https://www.credly.com/badges/f7b3def5-8964-4c85-80da-d883e76481d3/public_url)
 
 ### 💼 Relevant Experience
 
@@ -55,7 +55,7 @@ permalink: /work
     </ul>
 </p>
 
-![AWS](../assets/img/skills/aws.png "aws")  ![Azure](../assets/img/skills/azure.png "azure")    ![Kubernetes](../assets/img/skills/kubernetes.png)   ![Terraform](../assets/img/skills/terraform.png "terraform")   ![Github Actions](../assets/img/skills/github-actions.png "github-actions")  ![Datadog](../assets/img/skills/datadog.png "datadog") ![Docker](../assets/img/skills/docker.png "docker") ![SQL](../assets/img/skills/sql.png "SQL")
+![AWS](/img/skills/aws.png "aws")  ![Azure](/img/skills/azure.png "azure")    ![Kubernetes](/img/skills/kubernetes.png)   ![Terraform](/img/skills/terraform.png "terraform")   ![Github Actions](/img/skills/github-actions.png "github-actions")  ![Datadog](/img/skills/datadog.png "datadog") ![Docker](/img/skills/docker.png "docker") ![SQL](/img/skills/sql.png "SQL")
 
 <hr>
 
@@ -83,7 +83,7 @@ permalink: /work
     </ul>
 </p>
 
-![AWS](../assets/img/skills/aws.png "aws")  ![Python](../assets/img/skills/python.png "python")   ![CDK](../assets/img/skills/cdk.png "cdk")   ![Github Actions](../assets/img/skills/github-actions.png "github-actions")  ![Datadog](../assets/img/skills/datadog.png "datadog") ![Docker](../assets/img/skills/docker.png "docker") ![SQL](../assets/img/skills/sql.png "SQL")
+![AWS](/img/skills/aws.png "aws")  ![Python](/img/skills/python.png "python")   ![CDK](/img/skills/cdk.png "cdk")   ![Github Actions](/img/skills/github-actions.png "github-actions")  ![Datadog](/img/skills/datadog.png "datadog") ![Docker](/img/skills/docker.png "docker") ![SQL](/img/skills/sql.png "SQL")
 
 <hr>
 
@@ -107,7 +107,7 @@ permalink: /work
     </ul>
 </p>
 
-![AWS](../assets/img/skills/aws.png "aws")    ![Kubernetes](../assets/img/skills/kubernetes.png "kubernetes")  ![Terraform](../assets/img/skills/terraform.png "terraform") ![Docker](../assets/img/skills/docker.png "docker") ![MongoDB](../assets/img/skills/mongodb.png "mongodb")   ![Harness](../assets/img/skills/harness.png "harness") ![Jenkins](../assets/img/skills/jenkins.png "jenkins")   ![Azure](../assets/img/skills/azure.png "azure")
+![AWS](/img/skills/aws.png "aws")    ![Kubernetes](/img/skills/kubernetes.png "kubernetes")  ![Terraform](/img/skills/terraform.png "terraform") ![Docker](/img/skills/docker.png "docker") ![MongoDB](/img/skills/mongodb.png "mongodb")   ![Harness](/img/skills/harness.png "harness") ![Jenkins](/img/skills/jenkins.png "jenkins")   ![Azure](/img/skills/azure.png "azure")
 
 <hr>
 <p style="text-align:left;">
@@ -127,7 +127,7 @@ permalink: /work
     </ul>
 </p>
 
-![GCP](../assets/img/skills/gcp.png "gcp")    ![AWS](../assets/img/skills/aws.png "aws")    ![Kubernetes](../assets/img/skills/kubernetes.png "kubernetes")  ![Terraform](../assets/img/skills/terraform.png "terraform")    ![Docker](../assets/img/skills/docker.png "docker")   ![MongoDB](../assets/img/skills/mongodb.png "mongodb")    ![Harness](../assets/img/skills/harness.png "harness")   ![Jenkins](../assets/img/skills/jenkins.png "jenkins")
+![GCP](/img/skills/gcp.png "gcp")    ![AWS](/img/skills/aws.png "aws")    ![Kubernetes](/img/skills/kubernetes.png "kubernetes")  ![Terraform](/img/skills/terraform.png "terraform")    ![Docker](/img/skills/docker.png "docker")   ![MongoDB](/img/skills/mongodb.png "mongodb")    ![Harness](/img/skills/harness.png "harness")   ![Jenkins](/img/skills/jenkins.png "jenkins")
 
 <hr>
 <p style="text-align:left;">
@@ -148,7 +148,7 @@ permalink: /work
     </ul>
 </p>
 
-![AWS](../assets/img/skills/aws.png "aws")    ![Python](../assets/img/skills/python.png "python")  ![Powershell](../assets/img/skills/powershell.png "powershell")  ![jamf](../assets/img/skills/jamf.png "jamf")   ![Active Directory](../assets/img/skills/active-directory.png "active-directory")  ![SQL](../assets/img/skills/sql.png "SQL")    ![c-sharp](../assets/img/skills/c-sharp.png "c-sharp")
+![AWS](/img/skills/aws.png "aws")    ![Python](/img/skills/python.png "python")  ![Powershell](/img/skills/powershell.png "powershell")  ![jamf](/img/skills/jamf.png "jamf")   ![Active Directory](/img/skills/active-directory.png "active-directory")  ![SQL](/img/skills/sql.png "SQL")    ![c-sharp](/img/skills/c-sharp.png "c-sharp")
 
 <hr>
 <p style="text-align:left;">
@@ -169,7 +169,7 @@ permalink: /work
     </ul>
 </p>
 
-![Python](../assets/img/skills/python.png "python") ![Powershell](../assets/img/skills/powershell.png "powershell") ![jamf](../assets/img/skills/jamf.png "jamf") ![Active Directory](../assets/img/skills/active-directory.png "active-directory") ![c-sharp](../assets/img/skills/c-sharp.png "c-sharp")
+![Python](/img/skills/python.png "python") ![Powershell](/img/skills/powershell.png "powershell") ![jamf](/img/skills/jamf.png "jamf") ![Active Directory](/img/skills/active-directory.png "active-directory") ![c-sharp](/img/skills/c-sharp.png "c-sharp")
 
 <hr>
 <p style="text-align:left;">
@@ -199,7 +199,7 @@ permalink: /work
 </ul>
 </p>
 
-![Python](../assets/img/skills/python.png "python") ![Flask](../assets/img/skills/flask.png "flask") ![Javascript](../assets/img/skills/javascript.png "javascript") ![HTML](../assets/img/skills/html.png "html") ![CSS](../assets/img/skills/css.png "css") ![MongoDB](../assets/img/skills/mongodb.png "mongodb")
+![Python](/img/skills/python.png "python") ![Flask](/img/skills/flask.png "flask") ![Javascript](/img/skills/javascript.png "javascript") ![HTML](/img/skills/html.png "html") ![CSS](/img/skills/css.png "css") ![MongoDB](/img/skills/mongodb.png "mongodb")
 
 <hr>
 <p style="text-align:left;">
@@ -217,9 +217,9 @@ permalink: /work
 </ul>
 </p> 
 
-  ![Python](../assets/img/skills/python.png "python") ![SQL](../assets/img/skills/sql.png "SQL")
+  ![Python](/img/skills/python.png "python") ![SQL](/img/skills/sql.png "SQL")
 
 
-  [img-path]: ../assets/img/skills/
+  [img-path]: /img/skills/
   [png]:.png
 

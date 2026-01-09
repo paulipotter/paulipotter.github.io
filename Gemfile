@@ -2,23 +2,14 @@
 
 source "https://rubygems.org"
 
-gemspec
-# commenting below to remove dependency with "github-pages" 
-# gem "github-pages", group: :jekyll_plugins
-
-gem "jekyll-seo-tag"
+gem "jekyll", "~> 4.4"
+gem "jekyll-gist"
 gem "jekyll-sitemap"
+gem "jekyll-seo-tag"
+gem "jekyll-paginate"
+gem "webrick", "~> 1.7"
+
 group :jekyll_plugins do
-    gem "jekyll-paginate-v2"
-    gem "jekyll-feed"
-  end
+  gem "jekyll-feed"
+end
 
-# https://github.com/jekyll/jekyll/issues/8523#issuecomment-751409319
-# When running locally, we run into the following error —
-# `require': cannot load such file -- webrick (LoadError)
-# adding this avoids it
-gem "webrick"
-
-# adding the following gems to support removal of "github-pages" dependency
-gem "jemoji"
-gem "kramdown-parser-gfm"

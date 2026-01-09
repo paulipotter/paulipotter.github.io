@@ -9,55 +9,25 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
-        with:
-          persist-credentials: false
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          node-version: 14.x
-      
-      - name: Install dependencies 🛠
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      - name: Build Jekyll site 👷🏻‍♀️
         run: |
-          if [ -e yarn.lock ]; then
-          yarn install --frozen-lockfile
-          elif [ -e package-lock.json ]; then
-          npm ci
-          else
-          npm i
-          fi
-      - name: Build Jekyll for GitHub Pages 👷🏻‍♀️
-        uses: actions/jekyll-build-pages@v1.0.13
-        with:
-          source: ./ 
-          destination: ./_site 
-          future: true
-          build_revision: ${{ github.sha }}
-          verbose: true 
-          token: ${{ github.token }}
+          bundle install
+          bundle exec jekyll build --destination ./_site
           
       - name: Upload GitHub Pages artifact 📦
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_site  
-
-  get-artifact:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v4
-        with:
-          persist-credentials: false
-      
-      - name: Download Artifact 👾
-        uses: actions/download-artifact@v4
-
-      - name: Display structure of downloaded files
-        run: ls -R
+          path: ./_site
 
   deploy:
-    needs: [get-artifact, build]
+    needs: build
     permissions:
       pages: write
       id-token: write
@@ -67,12 +37,6 @@ jobs:
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
     steps:
-      - name: Get branch name
-        run: echo "BRANCH_NAME=$(echo ${GITHUB_REF#refs/heads/})" >> $GITHUB_ENV
-
-      - name: Print branch name
-        run: echo "The branch name is $BRANCH_NAME"
-
       - name: Deploy GitHub Pages site 🌎
         id: deployment
         uses: actions/deploy-pages@v4
